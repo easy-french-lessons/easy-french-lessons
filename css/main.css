@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 5rem;
+}
+
+h1
+{
+
+}
+
+h2
+{
+	
+}
+
+.title
+{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.example
+{
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background-color:rgb(240, 240, 240);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	border-left: 0.5rem solid rgb(88, 88, 88);
+	
+}
+
+.tooltip
+{
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+	
+.tooltip .tooltiptext
+{
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after
+{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.table_default
+{
+	border-collapse: collapse;
+	text-align: left;
+}
+
+
+.table_default tr
+{
+	margin: 0;
+}
+
+.table_default th
+{
+	border: 1px solid #555;
+	padding: 0.5em;
+}
+
+
+.spacer
+{
+	height:5em;
+}
+
+h1
+{
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+.footer_nav
+{
+	margin-top: 5rem;
+	width: 100%;
+}
+
+.footer_nav table
+{
+	width: 80%;
+	margin: auto;
+}
+
+.footer_nav th
+{
+	width: 50%;
+	text-align: center;
+}
+
+.block
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
