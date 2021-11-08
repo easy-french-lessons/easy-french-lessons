@@ -143,3 +143,9 @@ h1
 	margin-bottom: 1rem;
 }
 
+.centered_div
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
