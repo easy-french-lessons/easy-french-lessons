@@ -149,3 +149,13 @@ h1
 	align-items: center;
 	justify-content: center;
 }
+
+.hidden
+{
+	display: none;
+}
+
+.displayer:active + .hidden
+{
+	display: block;
+}
