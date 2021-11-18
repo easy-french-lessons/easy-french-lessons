@@ -159,3 +159,9 @@ h1
 {
 	display: block;
 }
+
+.ending_marker
+{
+	font-weight: bold;
+	color:darkred;
+}
