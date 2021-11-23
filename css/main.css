@@ -101,7 +101,7 @@ h2
 	margin: 0;
 }
 
-.table_default td
+.table_default th
 {
 	border: 1px solid #555;
 	padding: 0.5em;
